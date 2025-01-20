@@ -1,5 +1,6 @@
 import React from 'react'
 import Intro from './components/intro.js'
+import Table from './components/table.js'
 const App = () => {
   return (
     <div>
@@ -7,6 +8,7 @@ const App = () => {
         <p>Hello</p>
       </div>
       <div><Intro/></div>
+      <div><Table/></div>
     </div>
   )
 }

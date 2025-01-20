@@ -1,3 +1,18 @@
 .paratag{
   color: red;
 }
+.tablename {
+  text-align: center;
+  margin-left: 25px;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+.tablename th,.tablename td {
+  border: 1px solid black;
+  
+  padding: 12px;
+}
+.tablename th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
