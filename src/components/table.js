@@ -1,6 +1,7 @@
 import React from 'react'
 
-const table = () => {
+const table = (props) => {
+    const {Items} = props;
   return (
     <div>
         <table className='tablename'>
@@ -19,8 +20,28 @@ const table = () => {
             <tr>
                 <td>MI</td>
                 <td>Rohit Sharma</td>
-            </tr>
+            </tr> 
         </table>
+        <table className='IPLTeams'>
+        <tr>
+            <th>Team_Name</th>
+            <th>Team_Lead</th>
+            </tr>
+            <tr>
+                <td>{props.Team_Name}</td>
+                <td>{props.Team_Lead}</td>
+            </tr>
+            {/* <tr>
+                <td>{props.Team_Name}</td>
+                <td>{props.Team_Lead}</td>
+            </tr> */}
+        </table>
+        <ul>
+        {Items.map((item) => (
+          // <li key={item.id}>{item.Name}</li>
+          <li>{item.id} - {item.Name}</li>
+        ))}
+      </ul>
     </div>
   )
 }

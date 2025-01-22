@@ -1,25 +1,16 @@
 import React from 'react'
-import Intro from './components/intro.js'
-import Table from './components/table.js'
+//import Intro from './components/intro';
+import Info from './components/Info';
 const App = () => {
+  const handleclick_1=()=>{
+    alert("Button Clicked");
+  };
   return (
     <div>
-      <div className='paratag' style={{fontSize:"45px"}}>
-        <p>Hello</p>
-      </div>
-      <div><Intro/></div>
-      <div><Table/></div>
+        <Info handleclick_1={handleclick_1}></Info>
     </div>
+    
   )
 }
+
 export default App
-
-// export default App = () => {
-//   return (
-//     <div>
-//       <p>Hello</p>
-//     </div>
-//   )
-// }
-
-

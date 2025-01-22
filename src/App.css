@@ -1,5 +1,5 @@
 .paratag{
-  color: red;
+  color: blue;
 }
 .tablename {
   text-align: center;
@@ -9,10 +9,45 @@
 }
 .tablename th,.tablename td {
   border: 1px solid black;
-  
   padding: 12px;
 }
 .tablename th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.code{
+  color: green;
+}
+.error{
+  color: red;
+}
+.IPLTeams{
+  text-align: center;
+  margin-left: 25px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+.IPLTeams th,.IPLTeams td {
+  border: 1px solid black;
+  padding: 12px;
+}
+.IPLTeams th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.information table{
+  text-align: center;
+  margin-left: 25px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+.information table th, .information table td{
+  border: 1px solid black;
+  padding: 12px;
+}
+.information table th{
   background-color: #f4f4f4;
   font-weight: bold;
 }
