@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/https://github.com/Poojana-CSE/Basic-React-MERN.git/static/css/main.f0230820.css",
-    "main.js": "/https://github.com/Poojana-CSE/Basic-React-MERN.git/static/js/main.8e9a1cf3.js",
-    "index.html": "/https://github.com/Poojana-CSE/Basic-React-MERN.git/index.html",
-    "main.f0230820.css.map": "/https://github.com/Poojana-CSE/Basic-React-MERN.git/static/css/main.f0230820.css.map",
-    "main.8e9a1cf3.js.map": "/https://github.com/Poojana-CSE/Basic-React-MERN.git/static/js/main.8e9a1cf3.js.map"
+    "main.css": "/Basic-React-MERN/static/css/main.f0230820.css",
+    "main.js": "/Basic-React-MERN/static/js/main.8e9a1cf3.js",
+    "index.html": "/Basic-React-MERN/index.html",
+    "main.f0230820.css.map": "/Basic-React-MERN/static/css/main.f0230820.css.map",
+    "main.8e9a1cf3.js.map": "/Basic-React-MERN/static/js/main.8e9a1cf3.js.map"
   },
   "entrypoints": [
     "static/css/main.f0230820.css",
