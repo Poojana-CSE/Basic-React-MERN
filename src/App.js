@@ -17,18 +17,21 @@
 
 
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import Login from './components/login';
 
 const App = () => {
+  const navg = useNavigate();
+  function loginPage(){
+    navg('/login');
+  }
   return (
     <div>
-      <h2>This is my home page</h2>
-        <div>
-          <Routes>
-            <Route path="/login" element={<Login/>} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path='/' element = {<div><h2>This is my home page</h2>
+            <button onClick={loginPage}>Go To Login</button></div>}/>
+          <Route path="/login" element = {<Login/>} />
+        </Routes>
     </div>
   );
 };
